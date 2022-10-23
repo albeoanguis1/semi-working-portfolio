@@ -3,6 +3,7 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import { Flex, VStack, Heading, Spacer } from "@chakra-ui/layout";
 import { FaSun, FaMoon, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa'
 import Header from "./components/Header";
+import Portfolio from "./components/Portfolio/Portfolio";
 import Profile from "./components/Profile";
 import Social from "./components/Social";
 
@@ -13,9 +14,10 @@ function App() {
 
   return (
     <VStack p={5}>
-      <Flex w="100%">
-        <Heading
-          ml="8" size="md" fontWeight='semibold' color="cyan.400">ImAP</Heading>
+      <Flex w="100%" pos="fixed">
+        <Heading ml="8" size="md" fontWeight='semibold' color="cyan.400">
+          ImAP
+        </Heading>
 
         <Spacer></Spacer>
         <a href="https://www.linkedin.com/in/antoniopopoca001/"><IconButton icon={<FaLinkedin />} isRound='true'></IconButton></a>
@@ -25,6 +27,7 @@ function App() {
       </Flex>
       <Header></Header>
       <Profile></Profile>
+      <Portfolio></Portfolio>
     </VStack>
   );
 }
