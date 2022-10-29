@@ -5,7 +5,8 @@ import { Stack, Circle, Flex, Box, Text } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import React from 'react'
 import Type from './Type';
-import ME from '../me.jpg'
+import ME from '../me.jpg';
+
 
 
 function Header() {
@@ -16,7 +17,7 @@ function Header() {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
     return (
-        <Stack>
+        <Stack id="/">
             <Circle position="absolute" bg="blue.100" opacity="0.3"
                 w="300px" h="300px" alignSelf="flex-end" />
             <Flex direction={isNotSmallerScreen ? "row" : "column"}
@@ -31,7 +32,7 @@ function Header() {
                     <Button mt={8} colorScheme="blue" onClick={() =>
                         window.open("https://www.linkedin.com/in/antoniopopoca001/")
                     }>Hire Me</Button>
-
+                   
                 </Box>
                 <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
                     mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full'
