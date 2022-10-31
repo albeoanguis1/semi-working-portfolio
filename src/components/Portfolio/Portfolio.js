@@ -1,7 +1,7 @@
 import React from "react";
 import { Flex, Heading, Text, Spacer } from '@chakra-ui/layout';
 import { Container, Box, Center, ButtonGroup, Button, Image } from '@chakra-ui/react'
-import { AiFillGithub } from 'react-icons/ai'
+import './portfolio.css'
 import IMG1 from '../../assets/flask-project-logo.svg'
 import IMG2 from '../../assets/artic.svg.png'
 

@@ -1,0 +1,11 @@
+.navbar {
+    z-index: 10000;
+}
+
+.btn {
+    z-index: 100;
+}
+
+.navBox {
+    z-index: 1;
+}

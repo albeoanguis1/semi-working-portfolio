@@ -18,8 +18,8 @@ function Header() {
 
     return (
         <Stack id="/">
-            <Circle position="absolute" bg="blue.100" opacity="0.3"
-                w="300px" h="300px" alignSelf="flex-end" />
+            <Circle className="circle" position="absolute" bg="blue.200" opacity="0.3"
+                w="300px" h="300px" alignSelf="flex-end" zIndex={-100} />
             <Flex direction={isNotSmallerScreen ? "row" : "column"}
                 spacing="200px" p={isNotSmallerScreen ? "32" : "0"}
                 alignSelf="flex-start">
@@ -37,7 +37,7 @@ function Header() {
                 <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
                     mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full'
                     backgroundColor="white" boxShadow="dark-lg"
-                    boxSize="300px" src={ME} zIndex={5}/>
+                    boxSize="300px" src={ME} zIndex={-1}/>
             </Flex>
 
         </Stack>
