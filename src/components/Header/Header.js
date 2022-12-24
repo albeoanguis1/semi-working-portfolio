@@ -6,6 +6,7 @@ import { useMediaQuery } from '@chakra-ui/media-query';
 import React from 'react'
 import Type from '../Type/Type';
 import ME from '../../assets/me.jpg'
+import resume from '../../assets/resume.pdf'
 
 
 
@@ -27,11 +28,9 @@ function Header() {
                     <Text fontSize="5xl" fontWeight="semibold">Hello, I'm</Text>
                     <Text fontSize="8xl" fontWeight="bold" bgGradient="linear(to-r, cyan.00, blue.600, purple.800)" bgClip='text' >Antonio Popoca</Text> 
                     <Text fontSize="5xl" fontWeight="bold" bgGradient="linear(to-r, gray.400, purple.400)" bgClip='text' > <Type /></Text>
-                    <Text color={isDark ? "gray.200" : "gray.500"}>A full stack software Developer. I enjoy finding solutions to make a website look great and perform well.</Text>
+                    <Text color={isDark ? "gray.200" : "gray.500"}>Full stack software Developer. I am passionate about blending client expectations with business goals to deliver excellent & profitable experiences. My goals are to improve the organizational efficiency, productivity, and overall success of various enterprises through effective technical and analytical support. In addition, I am interested in developing my skills and abilities to grow as a developer and person.</Text>
                     {/* change this button later to download CV */}
-                    <Button mt={8} colorScheme="blue" onClick={() =>
-                        window.open("https://www.linkedin.com/in/antoniopopoca001/")
-                    }>Hire Me</Button>
+                    <a href={resume}><Button mt={8} colorScheme="blue">Hire Me</Button></a>
                    
                 </Box>
                 <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
