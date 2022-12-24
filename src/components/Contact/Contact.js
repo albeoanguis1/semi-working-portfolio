@@ -33,9 +33,9 @@ function Contact() {
         </Container>
         <Container>
         <form ref={form} onSubmit={sendEmail}>
-            <Box p="2">Name<Box><input border="1px" type="text" name="user_name" /></Box></Box>
-            <Box p="2">Email<Box><input type="email" name="user_email" /></Box></Box>
-            <Box p="2">Message<Box><textarea name="message" /></Box></Box>
+            <Box p="2">Name<Box><input id="input" border="1px" type="text" name="user_name" /></Box></Box>
+            <Box p="2">Email<Box><input id="input" type="email" name="user_email" /></Box></Box>
+            <Box p="2">Message<Box><textarea id="input" name="message" /></Box></Box>
             <Box p="2">
                 <input className="submit" type="submit" value="Send" />
             </Box>

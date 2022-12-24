@@ -4,8 +4,8 @@ import { Image } from '@chakra-ui/react';
 import { Stack, Circle, Flex, Box, Text } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
 import React from 'react'
-import Type from './Type';
-import ME from '../me.jpg';
+import Type from '../Type/Type';
+import ME from '../../assets/me.jpg'
 
 
 

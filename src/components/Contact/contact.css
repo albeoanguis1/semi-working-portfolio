@@ -1,6 +1,7 @@
 input {
     border: 1px solid #000000;
     border-radius: 15px;
+    margin-left: 50px;
 }
 
 textarea {
@@ -21,4 +22,8 @@ textarea {
 
 .submit:active {
     box-shadow: 3px 3px 4px gray inset;
+}
+
+#input{
+    padding-left: 5%;
 }

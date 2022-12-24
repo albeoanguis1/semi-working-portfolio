@@ -9,3 +9,8 @@
 .navBox {
     z-index: 1;
 }
+
+#navbarbox{
+    opacity: 0.95;
+    z-index: 1000;
+}

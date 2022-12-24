@@ -7,7 +7,7 @@ import { DiCodeigniter, DiAndroid, DiWebplatform } from 'react-icons/di'
 import { FaPython, FaReact, FaHtml5, FaCss3Alt, FaGit, FaJsSquare, FaBootstrap } from 'react-icons/fa'
 import { SiPostgresql, SiTypescript , SiRedux, SiFlask } from 'react-icons/si';
 import { Image } from '@chakra-ui/react'
-import  CTLogo from'../assets/logo-header.svg'
+import  CTLogo from'../../assets/logo-header.svg'
 import './profile.css'
 
 
@@ -41,7 +41,7 @@ function Profile() {
 
                             <Flex className="boxes" boxShadow='2xl' rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} 
                                 bg="gray.100" h="50vh" w="35vh" justify="flex-end" _hover={{ bg: "cyan.200", cursor: "pointer", boxShadow:"inner"}} centerContent>
-                                    <Container centerContent>
+                                    <Container centerContent id='notbox'>
                                     <Text color="black" fontSize="xl" fontWeight="semibold" mb="4" centerContent>
                                     Frontend Development
                                     </Text>
@@ -52,7 +52,6 @@ function Profile() {
                                     <Flex p="1"><Icon as={FaReact} w="10" h="10" /><Text>React</Text></Flex>
                                     <Flex p="1"><Icon as={SiRedux} w="10" h="10" /><Text>Redux</Text></Flex>
                                     <Flex p="1"><Icon as={FaBootstrap} w='10' h='10' /><Text>Bootstrap</Text></Flex>
-                                
                             </Flex>
 
                             <Flex className="boxes" boxShadow='2xl' rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0}
@@ -61,11 +60,9 @@ function Profile() {
                                 <Flex pl="2" pb="10"><Icon as={FaPython} w="10" h="10"/><Text>Python</Text></Flex>
                                 <Flex pl="2" pb="5" pt="5"><Icon as={SiFlask} w="10" h="10"/><Text>Flask</Text></Flex>
                                 <Flex pl="2" pt="10"><Icon as={SiPostgresql} w="10" h="10"/><Text>PostgreSQL</Text></Flex>
-                                
                                 <Text color="black" p="4" fontSize="xl" fontWeight="semibold" centerContent>
                                     Backend Development
                                 </Text>
-
                             </Flex>
                         </Flex>
                     </Container>
