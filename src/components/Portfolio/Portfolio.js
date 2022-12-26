@@ -80,7 +80,7 @@ const Portfolio = () => {
                 <Container mb="5" centerContent>
                   <ButtonGroup>
                     <a href="https://github.com/albeoanguis1/v2-flask-library" target="_blank" rel="noreferrer"><Button>Visit GitHub</Button></a>
-                    <a href="https://pls-hire-me.herokuapp.com/"><Button>Visit Website</Button></a>
+                    <a href="https://jungle-enormous-hydrant.glitch.me/"><Button>Visit Website</Button></a>
                   </ButtonGroup>
                 </Container>
               </article>
