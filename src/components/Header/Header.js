@@ -33,7 +33,7 @@ function Header() {
                     <a href={resume}><Button mt={8} colorScheme="blue">Hire Me</Button></a>
                    
                 </Box>
-                <Image alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
+                <Image id="me" alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
                     mb={isNotSmallerScreen ? "0" : "12"} borderRadius='full'
                     backgroundColor="white" boxShadow="dark-lg"
                     boxSize="300px" src={ME} zIndex={-1}/>

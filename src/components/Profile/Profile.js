@@ -39,10 +39,10 @@ function Profile() {
                     <Container centerContent>
                         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8} >
 
-                            <Flex className="boxes" boxShadow='2xl' rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} 
-                                bg="gray.100" h="50vh" w="35vh" justify="flex-end" _hover={{ bg: "cyan.200", cursor: "pointer", boxShadow:"inner"}} centerContent>
+                            <Flex className="boxes" id="boxes" boxShadow='2xl' rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} 
+                                bg="gray.100" h="45vh" w="35vh" justify="flex-end" _hover={{ bg: "cyan.200", cursor: "pointer", boxShadow:"inner"}} centerContent>
                                     <Container centerContent id='notbox'>
-                                    <Text color="black" fontSize="xl" fontWeight="semibold" mb="4" centerContent>
+                                    <Text color="black" fontSize="xl" fontWeight="bold" mb="4" centerContent>
                                     Frontend Development
                                     </Text>
                                     </Container>
@@ -54,13 +54,13 @@ function Profile() {
                                     <Flex p="1"><Icon as={FaBootstrap} w='10' h='10' /><Text>Bootstrap</Text></Flex>
                             </Flex>
 
-                            <Flex className="boxes" boxShadow='2xl' rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0}
-                                bg="gray.100" h="50vh" w="35vh" justify="flex-end"
+                            <Flex className="boxes" id='boxes' boxShadow='2xl' rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0}
+                                bg="gray.100" h="45vh" w="35vh" justify="flex-end"
                                 _hover={{ bg: "green.400", cursor: "pointer", boxShadow:"inner" }}>
                                 <Flex pl="2" pb="10"><Icon as={FaPython} w="10" h="10"/><Text>Python</Text></Flex>
                                 <Flex pl="2" pb="5" pt="5"><Icon as={SiFlask} w="10" h="10"/><Text>Flask</Text></Flex>
                                 <Flex pl="2" pt="10"><Icon as={SiPostgresql} w="10" h="10"/><Text>PostgreSQL</Text></Flex>
-                                <Text color="black" p="4" fontSize="xl" fontWeight="semibold" centerContent>
+                                <Text color="black" p="4" fontSize="xl" fontWeight="bold" centerContent>
                                     Backend Development
                                 </Text>
                             </Flex>

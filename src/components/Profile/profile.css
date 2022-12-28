@@ -2,6 +2,10 @@
     color: black !important;
 }
 
+#boxes:active {
+    box-shadow: inset 1px 1px 10px #333;
+}
+
 #notbox{
     margin-top: 1000%;
 }

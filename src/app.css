@@ -1,0 +1,25 @@
+.navbar {
+    z-index: 10000;
+}
+
+.btn {
+    z-index: 100;
+}
+
+.navBox {
+    z-index: 1;
+
+}
+
+@media  screen and (max-width: 600px) {
+    .navBox{display: none;}
+    #nightlight{
+        margin-right: 2em;
+        margin-left: auto;
+    }
+}
+
+#navbarbox{
+    opacity: 0.95;
+    z-index: 1000;
+}
