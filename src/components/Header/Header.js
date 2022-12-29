@@ -6,7 +6,7 @@ import { useMediaQuery } from '@chakra-ui/media-query';
 import React from 'react'
 import Type from '../Type/Type';
 import ME from '../../assets/me.jpg'
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/new_resume.pdf'
 
 
 
