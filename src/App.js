@@ -37,7 +37,7 @@ function App() {
 
   return (
     <VStack p={5}>
-      <Flex w="100%" pos="fixed" >
+      <Flex id="navbarflex" w="100%" pos="fixed" >
         <Heading ml="8" size="md" fontWeight='semibold' color="cyan.400">
           ImAP
         </Heading>

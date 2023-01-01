@@ -25,8 +25,11 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/antoniopopoca001/" target="_blank" rel="noreferrer" ><IconButton mr="5" as={FaLinkedinIn} p="2" m="1" isRound='true'/></a>
                 <a href="https://github.com/albeoanguis1" target="_blank" rel="noreferrer" ><IconButton ml="5" p="2" m="1" as={FaGithub} isRound="true" /></a>
             </Box>
-            <Box pt="5" className="footer__copyright">
-                <small>&copy; Antonio Popoca 2022. All rights reserved.</small>
+            <Box id="copyrightbox" pt="5" className="footer__copyright">
+                <center>
+                    <small id="small">&copy; Antonio Popoca 2022. All rights reserved.</small><br></br>
+                    <small id="small">This website was build with ReactJS, ChakraUI, and Bootstrap.</small>
+                </center>
             </Box>
         </Container>
 
