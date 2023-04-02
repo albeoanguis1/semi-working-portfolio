@@ -20,7 +20,7 @@ function Profile() {
         <div id='experience'>
             <Container centerContent>
             <Text fontWeight="bold" color="gray.400" fontSize="md" mt="5">What skills I have </Text>
-            <Text fontWeight="bold" fontSize="2xl">My Experience </Text>
+            <Text fontWeight="bold" fontSize="4xl">My Experience </Text>
             </Container>
             <Flex direction={isNotSmallerScreen ? "row" : "column"} w="100%"
                 maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}>
@@ -42,7 +42,7 @@ function Profile() {
                             <Flex className="boxes" id="boxes" boxShadow='2xl' rounded="xl" direction="column" mt={4} ml={isNotSmallerScreen ? 4 : 0} 
                                 bg="gray.100" h="45vh" w="35vh" justify="flex-end" _hover={{ bg: "cyan.200", cursor: "pointer", boxShadow:"inner"}} centerContent>
                                     <Container centerContent id='notbox'>
-                                    <Text color="black" fontSize="xl" fontWeight="bold" mb="4" centerContent>
+                                    <Text color="black" fontSize="xl" fontWeight="bold" mt='0' mb="4" centerContent>
                                     Frontend Development
                                     </Text>
                                     </Container>

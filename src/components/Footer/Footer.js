@@ -27,8 +27,8 @@ function Footer() {
             </Box>
             <Box id="copyrightbox" pt="5" className="footer__copyright">
                 <center>
-                    <small id="small">&copy; Antonio Popoca 2022. All rights reserved.</small><br></br>
-                    <small id="small">This website was build with ReactJS, ChakraUI, and Bootstrap.</small>
+                    <small id="small">&copy; Antonio Popoca 2023. All rights reserved.</small><br></br>
+                    <small id="small">This website was built with ReactJS, ChakraUI, and Bootstrap, with love.</small>
                 </center>
             </Box>
         </Container>

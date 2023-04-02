@@ -53,7 +53,7 @@ function App() {
         <Spacer></Spacer>
         <Box className="navBox" id="navbox">
         <a href="https://www.linkedin.com/in/antoniopopoca001/"><IconButton icon={<FaLinkedin />} isRound='true'></IconButton></a>
-        <a href="https://www.instagram.com/antonio.popoca.photo/"><IconButton ml={2} icon={<FaInstagram />} isRound='true' ></IconButton></a>
+        <a href="https://www.instagram.com/antoniovpopoca/"><IconButton ml={2} icon={<FaInstagram />} isRound='true' ></IconButton></a>
         <a href="https://github.com/albeoanguis1"><IconButton ml={2} icon={<FaGithub />} isRound='true' ></IconButton></a>
         </Box>
         <IconButton id="nightlight" ml={8}mr="5" icon={isDark ? <FaSun /> : <FaMoon />} isRound='true' onClick={toggleColorMode}></IconButton>

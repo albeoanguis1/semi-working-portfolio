@@ -5,6 +5,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/flask-project-logo.svg'
 import IMG2 from '../../assets/artic.svg.png'
 import IMG3 from '../../assets/undraw_barbecue_3x93.svg'
+import IMG4 from '../../assets/koala-logo.png'
 
 const Portfolio = () => {
     const soloProjects = [
@@ -62,6 +63,25 @@ const Portfolio = () => {
                   <ButtonGroup>
                   <a href="https://github.com/albeoanguis1/crispi" target="_blank" rel="noreferrer"><Button>Visit GitHub</Button></a>
                     <a href="https://carnation-fallacious-yogurt.glitch.me/"><Button>
+                      Visit Website
+                    </Button></a>
+                  </ButtonGroup>
+                </Container>
+              </article>
+
+              <article>
+                <Box>
+                  <Image centerContent src={IMG4} alt={IMG4} boxSize="xsm" borderRadius="full" />
+                </Box>
+                <Container m="3" centerContent>
+                  <Text fontSize="2xl" fontWeight="semibold">Adequan Calculator 🤌</Text>
+                  <Text fontSize="md">A simple calculator used in the day-to-day operations of a pharmacy to calculate the amount of boxes needed cover a day supply for a specific drug with special parameters, Adequan.</Text>
+                  <Text fontWeight="semibold">Python | Flask | Jinja | Bootstrap | JavaScript</Text>
+                </Container>
+                <Container mb="5" centerContent>
+                  <ButtonGroup>
+                  <a href="https://github.com/albeoanguis1/adequan_calc" target="_blank" rel="noreferrer"><Button>Visit GitHub</Button></a>
+                    <a href="https://pls-hire-me.onrender.com/"><Button>
                       Visit Website
                     </Button></a>
                   </ButtonGroup>

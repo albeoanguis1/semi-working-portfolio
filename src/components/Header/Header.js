@@ -30,7 +30,9 @@ function Header() {
                     <Text fontSize="5xl" fontWeight="bold" bgGradient="linear(to-r, gray.400, purple.400)" bgClip='text' > <Type /></Text>
                     <Text color={isDark ? "gray.200" : "gray.500"}>Full stack software Developer. I am passionate about blending client expectations with business goals to deliver excellent & profitable experiences. My goals are to improve the organizational efficiency, productivity, and overall success of various enterprises through effective technical and analytical support. In addition, I am interested in developing my skills and abilities to grow as a developer and person.</Text>
                     {/* change this button later to download CV */}
-                    <a href={resume}><Button mt={8} colorScheme="blue">Hire Me</Button></a>
+                    <Text fontSize="2xl" mt={5}>What I'm currently working on:</Text>
+                    <Text fontSize='xl' mt={2}>Machine Learning and AI Fundamentals - Codecademy</Text>
+                    <a href={resume}><Button mt={8} colorScheme="blue">My Resumé</Button></a>
                    
                 </Box>
                 <Image id="me" alignSelf="center" mt={isNotSmallerScreen ? "0" : "12"}
